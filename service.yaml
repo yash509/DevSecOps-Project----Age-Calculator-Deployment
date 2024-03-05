@@ -10,6 +10,6 @@ spec:
     app: age-calculator
   ports:
     - protocol: TCP
-      port: 8080  # Port exposed by the service externally (outside the cluster)
+      port: 5000  # Port exposed by the service externally (outside the cluster)
       targetPort: 80  # Port your application listens on inside the pods
   type: LoadBalancer
