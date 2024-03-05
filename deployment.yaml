@@ -16,4 +16,4 @@ spec:
       - name: age-calculator
         image: rameshkumarverma/age-calculator
         ports:
-        - containerPort: 80
+        - containerPort: 5000
