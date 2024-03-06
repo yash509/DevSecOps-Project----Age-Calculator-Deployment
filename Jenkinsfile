@@ -128,7 +128,7 @@ pipeline {
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name age-calculator -p 5000:5000 yash5090/age-calculator:latest' 
+                sh 'docker run -d --name age-calculator -p 5000:80 yash5090/age-calculator:latest' 
             }
         }
     }
